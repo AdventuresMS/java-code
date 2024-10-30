@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class sub{
+    int usr(int a,int b){
+        int ans=a-b;
+        return ans;
+    }
+}
+public class subExample {
+    public static void main(String[] args) {
+        sub obj = new sub();
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println("My answer is");
+        int sol = obj.usr(a,b);
+        System.out.println(sol);
+
+    }
+    
+}
+
