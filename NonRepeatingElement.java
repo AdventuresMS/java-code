@@ -10,10 +10,10 @@ public class NonRepeatingElement {
                 }
             }
             if (count == 1) {
-                return nums[i]; // Found the first non-repeating element
+                return nums[i]; 
             }
         }
-        return -1; // No unique element found
+        return -1;
     }
 
     public static void main(String[] args) {
