@@ -1,5 +1,6 @@
 class PeakMountain{
-    public int peakIndexInMountainArray(int[] arr){
+    public int peakIndexInMountainArray(int[] arr,int n){
+        
         int lo = 1,hi = n-2;
         while(lo<=hi){
             int mid = lo + (hi-lo)/2;
