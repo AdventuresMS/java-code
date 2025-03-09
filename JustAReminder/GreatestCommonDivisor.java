@@ -18,5 +18,6 @@ public class GreatestCommonDivisor{
         System.out.println("Enter b:");
         int b = sc.nextInt();
         System.out.println(hcf(a, b));
+        sc.close();
     }
 }
