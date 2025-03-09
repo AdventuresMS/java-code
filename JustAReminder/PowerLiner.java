@@ -19,5 +19,6 @@ public class PowerLiner{
          System.out.println("Enter Power");
          int b = sc.nextInt();
          System.out.println(a+" raised to the power"+" "+b+" "+"is  "+pow2(a, b));
+         sc.close();
     }
 }
