@@ -18,7 +18,7 @@ public class ReverseFirstKelementsInQueue {
         // while stack is not empty, push elements back into the queue
         while (!st.isEmpty()) {
             int a = st.peek();
-            st.pop();  // fix: pop from stack, not queue
+            st.pop(); 
             q.add(a);
         }
 
